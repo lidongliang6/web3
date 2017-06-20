@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>河北师范大学创客俱乐部</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-decoration: none;
+		color: black;
+	}
+	a:hover{
+		color: #0033FF;
+	}
+	body{
+		background: url(images/bodybg.gif);
+	}
+	#head{
+		width: 100%;
+	}
+	#head-top{
+		border-top: 5px solid #0033FF;
+		border-bottom: 1px solid gray;
+		width: 780px;
+		height: 100px;
+		margin: 0px auto;
+	}
+	#head-top-logo{
+		margin-top: 20px;
+		float: left;
+	}
+	#head-top-nav{
+		height: 35px;
+		margin-top: 30px;
+		float: right;
+	}
+	.content{
+		border: 1px solid gray;		
+		height: 30px;
+		float: left;
+	}
+	.nav{
+		padding: 5px;
+		height: 32px;
+		background: black;
+		color: #FFFFFF;
+		border: 2px solid gray;
+		float: left;
+	}
+	#head-nav{
+		line-height: 50px;
+		height: 50px;
+		width: 750px;
+		margin: 0px auto;
+		margin-top: 10px;
+	}
+	#head-nav ul{
+		font-size: 16px;
+		width: 720px;
+		margin: 0px auto;
+	}
+	#head-nav ul li a{
+		display: block;
+		color: black;
+	}
+	#head-nav ul li a:hover{
+		color: white;
+	}
+	#head-nav ul li:hover{
+		background: #0033FF;
+	}
+	#head-nav ul li{
+		text-align: center;
+		color: black;
+		width: 80px;
+		font-weight: bolder;
+		float: left;
+	}
+	#head-nav ul li:hover{
+		color: #0033FF;
+	}
+	#head-pic{
+		width: 1257px;
+		height: 397px;
+		margin: 0px auto;
+	}
+	#body{
+		height: 760px;
+		width: 910px;
+		margin: 0px auto;
+		margin-top: 10px;
+
+	}
+	#body-left{
+		width: 500px;
+		float: left;
+	}
+	#body-left-top span{
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	#body-left-top .more{
+		float: right;
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	#body-left-top ul li{
+		line-height: 35px;
+		height: 35px;
+		font-size: 16px;
+	}
+	.pic2{
+		background: green;
+		text-align: center;
+		color: red;
+		font-weight: bolder;
+		margin: 4px;
+		margin-top: 20px;
+		float: left;
+		opacity: 0.5;
+	}
+	.pic2:hover{
+		opacity: 1;
+	}
+	#body-left-top ul li span{
+		font-weight: normal;
+		font-size: 14px;
+		float: right;
+		color: gray;
+	}
+	#body-left-bottom{
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	#body-left-bottom span{
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	#body-left-bottom .more{
+		float: right;
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	#body-right{
+		margin-top: 20px;
+		width: 330px;
+		margin-left: 80px;
+		float: left;
+	}
+	#body-right-top{
+		background: url(images/body-background.jpg) repeat; ;
+	}
+	#body-right-top-top  span{ 
+		color: #0033FF;
+
+	}
+	#body-right-top-bottom{
+		text-align: center;
+		
+	}
+	#body-right-top-bottom span{
+		color: red;
+	}
+	#body-right-bottom{
+		height: 350px;
+		margin-top: 20px;
+		background: url(images/body-background.jpg);
+	}
+	#body-right-bottom-top{
+		padding-top: 10px;
+	}
+	#body-right-bottom-top span{
+		margin-left: 10px;
+		color: red;
+	}
+	#guanzhu{
+		margin-top: 30px;
+	}
+	.all a{
+		color: red;
+		float: right;
+		margin-right: 10px;
+	}
+	.pic1{
+		text-align: center;
+		padding: 10px;
+		float: left;
+	}
+#footer{
+	font-size: 12px;
+	height: 105px;
+	clear: both;
+	background: url(images/foot.gif);
+}
+#list{
+	
+	width: 546px;
+	margin: 0px auto;
+}
+#list ul
+{
+	padding-top:20px;
+	list-style: none;
+}
+
+#list ul li a,p{
+	color: gray;
+	text-decoration: none;
+}
+#list ul li {
+	padding: 0px 20px;
+	float: left;
+	border-right: solid #960;
+}
+#list ul .us{
+	border-right: none;
+
+}
+#line{
+	text-align: center;
+	height: 1px;
+	width: 517px;
+	margin: 0px auto;
+}
+	
+	
+	</style>
+</head>
+<body>
+<!--网页导航-->
+<div id="head">
+	<div id="head-top">
+		<div id="head-top-logo">
+			<img src="images/logo.png">
+		</div>
+		<div id="head-top-nav">
+			<input type="text" name="name1" class="content" >
+			<input type="button" name="but" value="搜索" class="nav"></div>
+		</div>
+	</div>
+	<div id="head-nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="index.html">今日动态</a></li>
+			<li><a href="index.html">骨干风采</a></li>
+			<li><a href="index.html">创业孵化</a></li>
+			<li><a href="index.html">特色活动</a></li>
+			<li><a href="index.html">创业帮扶</a></li>
+			<li><a href="index.html">赛事咨询</a></li>
+			<li><a href="index.html">部门设置</a></li>
+			<li><a href="index.html">留言板</a></li>
+
+		</ul>
+	</div>
+	<div id="head-pic">
+		<img src="images/nav-background.jpg" width="100%" height="100%">
+	</div>
+</div>
+<!--网页主体-->
+<div id="body">
+	<div id="body-left">
+		<div id="body-left-top">
+			<span>特色活动</span>
+			<span class="more"><a href="#">更多</a></span>
+			<br/>
+			<img src="images/index_h1.gif">
+			<br/>
+			<ul>
+				<li><a href="list.html">河北师范大学第三期“创客训练营”</a><span>2017-3-24</span></li>
+				<li><a href="#">河北师范大学第三期“创客训练营”</a><span>2016-3-24</span></li>
+				<li><a href="#">河北师范大学第三期“创客训练营”</a><span>2016-3-24</span></li>
+				<li><a href="#">河北师范大学第三期“创客训练营”</a><span>2016-3-24</span></li>
+				<li><a href="#">河北师范大学第三期“创客训练营”</a><span>2016-3-24</span></li>
+				<li><a href="#">河北师范大学第三期“创客训练营”</a><span>2016-3-24</span></li>
+			</ul>
+		</div>
+		<div id="body-left-bottom">
+			<span>部门设置</span>
+			<span class="more"><a href="#">更多</a></span>
+			<br/>
+			<img src="images/index_h1.gif">
+			<br/>
+			<a href="#">
+				<div class="pic2">
+					<img src="images/briefcase_512.png" width="150px" height="150px">
+					<br/>
+					办公室
+				</div>
+			</a>
+			<a href="#">
+				<div class="pic2">
+					<img src="images/cup-gold.png" width="150px" height="150px">
+					<br/>
+					赛培部
+				</div>
+			</a>
+			<a href="#">
+				<div class="pic2">
+					<img src="images/megaphone.png" width="150px" height="150px">
+					<br/>
+					宣传部
+				</div>
+			</a>
+			<a href="#">
+				<div class="pic2">
+					<img src="images/dollars37.png" width="150px" height="150px">
+					<br/>
+					财政部
+				</div>
+			</a>
+			<a href="#">
+				<div class="pic2">
+					<img src="images/hammer58.png" width="150px" height="150px">
+					<br/>
+					督察部
+				</div>
+			</a>
+			<a href="#">
+				<div class="pic2">
+					<img src="images/phone-icon.png" width="150px" height="150px">
+					<br/>
+					外联部
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id="body-right">
+		<div id="body-right-top">
+			<div id="body-right-top-top">
+			<img src="images/bunny-welcome.png" width="100px" height="100px">
+			<span >欢迎加入我们！</span>
+			
+			<img src="images/chichen-welcome.png" width="100px" height="100px">
+			</div>
+		<div id="body-right-top-bottom">
+			<img src="images/qq.jpg" width="200px" height="220px">
+			<br/>
+			<span>QQ交流群</span>
+		</div>
+		</div>
+		<div id="body-right-bottom">
+		<div id="body-right-bottom-top">
+			<span>关注者（9999+）</span>
+			<span class="all"><a href="#">查看更多</a></span>
+		</div>
+		<div id="guanzhu">
+			<div class="pic1">
+				<img src="images/mayun.jpg" width="80px" height="90px">
+				<br/>
+				<span>马云</span>
+			</div>
+			<div class="pic1">
+				<img src="images/chenou.jpg" width="80px" height="90px">
+				<br/>
+				<span>陈欧</span>
+			</div>
+			<div class="pic1">
+				<img src="images/mahuateng.jpg" width="80px" height="90px">
+				<br/>
+				<span>马化腾</span>
+			</div>
+			<div class="pic1">
+				<img src="images/yanghuiyan.jpg" width="80px" height="90px">
+				<br/>
+				<span>杨惠妍</span>
+			</div>
+			<div class="pic1">
+				<img src="images/zhouhongwei.jpg" width="80px" height="90px">
+				<br/>
+				<span>周宏伟</span>
+			</div>
+			<div class="pic1">
+				<img src="images/lijiacheng.jpg" width="80px" height="90px">
+				<br/>
+				<span>李嘉诚</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--网页底部-->
+<div id="footer">
+	<div id="list">
+		<ul>
+			<li><a href="#" >电子邮箱</a></li>
+			<li><a href="#">设为首页</a></li>
+			<li><a href="#" >在线调查</a></li>
+			<li><a href="#" >加入收藏</a></li>
+			<li><a href="#" >网站地图</a></li>
+			<li class="us"><a href="#">关于我们</a></li>
+		</ul>
+	</div>
+	<div id="line">
+		<img src="images/line.jpg">
+		<p>
+		Copyright&nbsp;&copy;&nbsp;2016-2017&nbsp;Hebshufajia.con,ALL&nbsp;Rights&nbsp;Reserved
+		</p>
+		<p>
+		冀ICP备05067795号&nbsp冀公安网备110402440008号
+		</p>
+	</div>
+</div> 
+</body>
+</html>
